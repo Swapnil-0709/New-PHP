@@ -19,7 +19,7 @@ else{
 	mysqli_query($con,$qry);
 	header("location: patient.php#viewap");
 }else{
-	echo "Access Denied";
+	echo "Access Denied to patient";
 }
 
 }
